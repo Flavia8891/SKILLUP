@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.main-menu li {
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+}
+
+.head-title {
+  font-size: 66px;
+  font-family: 'Meridien', 'Times New Roman', serif;
+  max-width: 1020px;
+}
+
+.site-padding {
+  padding: 0 20px;
+}

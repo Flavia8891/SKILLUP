@@ -1,0 +1,44 @@
+p {
+  padding: 20px;
+  border: 2px solid #19d58d;
+  background-color: #a9e1cb;
+  /*
+    #XXXXXX
+    6X
+    X:
+    0123456789 abcdef
+  */
+  margin: 0;
+}
+
+.wrapper {
+  background-color: rgb(199, 223, 244);
+  padding: 30px;
+}
+
+body {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+}
+
+p + p {
+  margin: 15px 0 0;
+  /* 
+  15px
+  all sides
+
+  15px 15px 15px 15px
+  top right bottom left
+
+  15px 15px 15px
+  top left/right bottom
+
+  15px 15px
+  top/bottom left/right
+
+  for padding property it's the same
+  */
+}
